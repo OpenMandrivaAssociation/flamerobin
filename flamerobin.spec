@@ -1,6 +1,6 @@
 %define name	flamerobin
 %define version	0.7.6
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Summary:	Graphical client for Firebird
 Name:		%{name}
@@ -52,5 +52,3 @@ rm -rf %{buildroot}
 %{_iconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
-
-
