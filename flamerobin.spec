@@ -23,6 +23,7 @@ toolkit.
 %setup -q -n %{name}-%{version}-src
 
 %build
+chmod +x configure
 %configure \
 	--with-wx-config=wx-config-unicode \
 	--disable-debug \
