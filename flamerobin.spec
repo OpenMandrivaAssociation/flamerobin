@@ -13,6 +13,7 @@ URL:		http://www.flamerobin.org/
 BuildRequires:	firebird-devel >= 2.0.0.12748
 BuildRequires:	wxgtku-devel >= 2.6
 BuildRequires:  ImageMagick
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 FlameRobin is a database administration tool for Firebird DBMS based on wxgtk
