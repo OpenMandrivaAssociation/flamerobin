@@ -12,7 +12,7 @@ Source0:	%{name}-%{version}-src.tar.gz
 URL:		http://www.flamerobin.org/
 BuildRequires:	firebird-devel >= 2.0.0.12748
 BuildRequires:	wxgtku-devel >= 2.6
-BuildRequires:  ImageMagick
+BuildRequires:  imagemagick
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
