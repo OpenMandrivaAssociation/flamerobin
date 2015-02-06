@@ -1,6 +1,6 @@
 %define name	flamerobin
 %define version	0.9.2
-%define release	%mkrel 1
+%define release	2
 
 Summary:	Graphical client for Firebird
 Name:		%{name}
