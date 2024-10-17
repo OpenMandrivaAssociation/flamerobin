@@ -9,7 +9,7 @@ Release:	%{release}
 License:	BSD style
 Group:		Databases
 Source0:	%{name}-%{version}-src.tar.gz
-URL:		http://www.flamerobin.org/
+URL:		https://www.flamerobin.org/
 BuildRequires:	firebird-devel >= 2.0.0.12748
 BuildRequires:	wxgtku-devel >= 2.6
 BuildRequires:  imagemagick
