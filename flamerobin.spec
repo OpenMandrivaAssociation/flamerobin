@@ -10,6 +10,11 @@ License:	BSD style
 Group:		Databases
 Source0:	%{name}-%{version}-src.tar.gz
 URL:		https://www.flamerobin.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	firebird-devel >= 2.0.0.12748
 BuildRequires:	wxgtku-devel >= 2.6
 BuildRequires:  imagemagick
